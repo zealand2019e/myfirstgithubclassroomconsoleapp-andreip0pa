@@ -26,7 +26,13 @@ namespace MyFirstGitHubClassRoomConsoleApp
         public demo(int great, string name)
         {
             GreatProperty = great;
-            Name = name;
+            Name = "";
+            for (int i = 1; i <= great; i++)
+            {
+                Name += name;
+                
+            }
+            
         }
 
 
